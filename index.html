@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Gridzilla</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+<header>
+	<div class="container">
+		<div class="topline">
+			<div class="logo">
+				<a href="index.html">
+					Gridzilla<span>.</span>
+				</a>
+			</div>
+			<input type="text" placeholder="Enter your search...">
+		</div>
+		<div class="line"></div>
+		<nav>
+			<ul class="nav">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="last" href="contact.html">Contact</a></li>
+			</ul>
+			<div class="hamburger-box" onclick="myFunction(this)">
+				<span class="bar"></span>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- begin gallery -->
+<section class="gallery">
+	<div class="container">
+		<div class="gallery__wrap">
+			<div class="gallery__first">
+				<div class="gallery__first-item">
+					<div class="card">
+						<img src="img/slider1.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+				<div class="gallery__first-item">
+					<div class="card">
+						<img src="img/slider2.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+				<div class="gallery__first-item">
+					<div class="card">
+						<img src="img/slider3.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery__second">
+				<div class="gallery__second-item big">
+					<div class="card">
+						<img src="img/slider4.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+				<div class="gallery__second-item small">
+					<div class="card">
+						<img class="first-img" src="img/slider5.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+					<div class="card">
+						<img class="second-img" src="img/slider6.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery__third">
+				<div class="gallery__third-item">
+					<div class="card">
+						<img src="img/slider7.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+				<div class="gallery__third-item">
+					<div class="card">
+						<img class="center-img" src="img/slider8.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+				<div class="gallery__third-item">
+					<div class="card">
+						<img src="img/slider9.png" alt="image">
+						<div class="overlay"><span><i class="fa fa-plus" aria-hidden="true"></i></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- begin carousel -->
+		<div class="carousel">
+			<div class="carousel__item">
+				<div class="carousel__title">Top iPhone Apps</div>
+				<div class="carousel__desc">Lorem ipsum dolor sit amet, ne utinam discere blandit vim, at iusto facilisis mel. Cetero audire sea an, has ex quem prima omnium.</div>
+				<div class="carousel__more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More...</div>
+			</div>
+			<div class="carousel__item">
+				<div class="carousel__title">Top iPhone Apps</div>
+				<div class="carousel__desc">Lorem ipsum dolor sit amet, ne utinam discere blandit vim, at iusto facilisis mel. Cetero audire sea an, has ex quem prima omnium.</div>
+				<div class="carousel__more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More...</div>
+			</div>
+		</div>
+		<!-- end carousel -->
+	</div>
+</section>
+<!-- end gallery -->
+<!-- begin theme -->
+<section class="theme">
+	<div class="container">
+		<h2>A Theme Unlike Any Other. Simply Fantastic!</h2>
+		<div id="Container">
+			<ul class="theme__nav">
+				<li><a class="active" href="#">All</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Design</a></li>
+				<li><a href="#">Print</a></li>
+				<li><a class="last-one" href="#">Art</a></li>
+			</ul>
+			<div class="post-wrap">
+				<div class="top-line">
+					<a href="#popup1" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/1.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Sticker Mule</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup2" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/2.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">10 Amezing Website</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup3" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/3.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Top iPhone Apps</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup4" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/4.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Photo Shoot</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+				</div>
+				<div class="center-line">
+					<a href="#popup5" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/5.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Big Buck Bunny</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup6" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/6.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Character Design</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup7" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/7.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Service Icon</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup8" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/8.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Wedding Card</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+				</div>
+				<div class="bottom-line">
+					<a href="#popup9" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/9.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Pinterest Icon</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup10" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/10.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">iPad 3 Review</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup11" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/11.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Social Media Buttons</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+					<a href="#popup12" class="open-popup-link item">
+						<div class="post">
+							<div class="img-wrap">
+								<img src="img/12.png" alt="image">
+								<div class="overlay">
+									<span><i class="fa fa-plus"></i></span>
+									<div class="overlay-bottom">
+										<div class="overlay-bottom-left"><i class="fa fa-eye"></i><span>857</span></div>
+										<div class="overlay-bottom-center"><i class="fa fa-clock-o"></i><span>07/05/15</span></div>
+										<div class="overlay-bottom-right"><i class="fa fa-heart"></i><span>344</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="post-title">Silver UI Kit</div>
+							<div class="post-date">June 15, 2012  /  news, contests</div>
+							<div class="post-desc">Lorem ipsum dolor sit amet, te possim inimicus ius. Alii ullam at corper pri ad, per nulla luptatum te, in qui delenit nostrum. Nam ad labores.</div>
+							<div class="post-more"><i class="fa fa-angle-double-right" aria-hidden="true"></i>More</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- begin popup-content -->
+			<div id="popup1" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/1.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup2" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/2.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup3" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/3.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup4" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/4.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup5" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/5.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup6" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/6.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup7" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/7.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup8" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/8.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup9" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/9.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup10" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/10.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup11" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/11.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+			<div id="popup12" class="white-popup mfp-hide">
+			  	<h2>Lorem ipsum dolor.</h2>
+			  	<img src="img/12.png" alt="image">
+			  	<div class="popup-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem, omnis sequi nisi possimus dolores id debitis voluptatem quas, nostrum praesentium eligendi dignissimos. Quasi delectus tenetur asperiores aperiam. Dolorem, libero?</div>
+			</div>
+		<!-- end popup-content -->
+		<div class="pagination">
+			<a class="active" href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+		</div>
+	</div>
+</section>
+<!-- end theme -->
+<footer>
+	<div class="container">
+		<div class="line"></div>
+		<div class="f-left">
+			<ul class="soc">
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="f-right">
+			<div class="f-info">Best PSD Freebies | info@bestpsdfreebies.com</div>
+			<div class="f-copy">Copyright 2012 Gridzilla Theme  <a href="www.bestpsdfreebies.com">www.bestpsdfreebies.com</a></div>
+		</div>
+	</div>
+</footer>
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
